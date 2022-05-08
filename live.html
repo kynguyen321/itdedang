@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>videojs-contrib-hls embed</title>
+
+  <link href="video-js.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Video.js Example Embed</h1>
+
+  <video-js id="my_video_1" class="vjs-default-skin" controls preload="auto" width="640" height="268">
+    <source src="https://public.dm.files.1drv.com/y4mnun2zw7ezFg-k35jh-kc176ygQDQ_IxdhaF5Eww_wfphMKBS1h3f92Lb2dOoV_Nxz0n4b3Owd65Uk62fbxJ1FbOE7GGGpczyyA2MNICtUscUsMmjm_8eAw5A92_EbD_aSanceYcFMXe8Abay-wYRU3-mpOEUz6U71NC69AUP0-2CCfXUJ-yr0jwcYNVrZK5RVOZoSStACP7t5e_FEy_21YoaML1zZcKm8lTkWIsanos" type="application/x-mpegURL">
+  </video-js>
+  
+  <script src="video.js"></script>
+  <script src="videojs-http-streaming.js"></script>
+  
+  <script>
+    var player = videojs('my_video_1');
+  </script>
+  
+</body>
+</html>
